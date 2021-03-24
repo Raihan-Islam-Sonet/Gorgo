@@ -1,0 +1,245 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,900&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    width: 1140px;
+    margin: 0px auto;
+}
+.header{
+    width: 100%;
+}
+.header .nav{
+    display: flex;
+    padding: 24px 0;
+}
+.header .nav .logo{
+    flex-basis: 25px;
+}
+.header .nav .logo a img{
+    margin: 12px;
+    width: 150px;
+    height: auto;
+}
+.header .nav .menu{
+    flex-basis: 50%;
+    margin-left: 100px;
+}
+.header .nav .menu ul li{
+    display: inline-block;
+    line-height: 62px;
+    margin-right: 16px;
+}
+.header .nav .menu ul li a{
+    color: #565468;
+    font-size: 20px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 500;
+    transition: color 0.5s;
+}
+.header .nav .menu ul li a:hover{
+    color: #FF6162;
+}
+.header .nav .button{
+    flex-basis: 25%;
+    text-align: right;
+}
+.header .nav .button a button{
+    padding: 10px 10px;
+    margin-top: 15px;
+    border: none;
+    background-color: #FF6162;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+    transition: all 0.5s;
+}
+.header .nav .button a button:hover{
+    background-color: #d63f3f;
+}
+/*=============== Start Banner Section ===============*/
+.banner{
+    width: 100%;
+    height: 100vh;
+}
+.banner .banner-content{
+    display: flex;
+    height: 80vh;
+    align-items: center;
+}
+.banner .banner-content .banner-content-left h1{
+    font-size: 45px;
+    color: #292640;
+    line-height: 60px;
+    margin-bottom: 30px;
+    font-family: 'Poppins', sans-serif;
+}
+.banner .banner-content .banner-content-left p{
+    font-size: 17px;
+    color: #B9ACB2;
+    line-height: 25px;
+    margin-bottom: 15px;
+    font-family: 'Poppins', sans-serif;
+    padding-right: 20px;
+}
+.banner .banner-content .banner-content-left a i{
+    font-size: 30px;
+    color: #B9ACB2;
+    transition: color 0.5s;
+}
+.banner .banner-content .banner-content-left a i:hover{
+    color: #FF6162;
+}
+.banner .banner-content .banner-content-right{
+    margin-left: 20px;
+}
+.banner .banner-content .banner-content-right img{
+    width: 500px;
+    height: auto;
+}
+
+/*=============== Start projects Section ===============*/
+.project{
+    width: 100%;
+    height: 100vh;
+}
+.project h1{
+    text-align: center;
+    font-size: 40px;
+    font-family: 'Poppins', sans-serif;
+    line-height: 70px;
+}
+.project p{
+    text-align: center;
+    color: #B9ACB2;
+    font-family: 'Poppins', sans-serif;
+}
+.project .project-gallery{
+    display: flex;
+    padding-top: 60px;
+    margin-bottom: 80px;
+}
+.project .project-gallery .category{
+    text-align: center;
+    margin: 16px;
+    flex-grow: 1;
+}
+.project .project-gallery .category img{
+    width: 300px;
+    height: auto;
+}
+.project .project-gallery .category img:hover{
+    box-shadow: 10px 10px 20px 5px rgba(0 , 0, 0, 0.3);
+    transition: 0.5s;
+}
+.project .project-gallery .category h3{
+    font-family: 'Poppins', sans-serif;
+    margin-top: 20px;
+}
+
+/*=============== Start projects Section ===============*/
+.features{
+    width: 100%;
+    height: 130vh;
+}
+.features .features-content{
+    text-align: center;
+}
+.features .features-content h1{
+    font-family: 'Poppins', sans-serif;  
+}
+.features .features-content p{
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 24px;
+    color: #B9ACB2;
+}
+.features .features-content .features-gallery{
+    display: flex;
+    margin-top: 40px;
+    
+}
+.features .features-content .features-gallery .item{
+    background-color: #eeeaec;
+    margin:0 10px;
+}
+.features .features-content .features-gallery .item span img{
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    display: inline-block;
+    margin: 20px 0;  
+}
+.features .features-content .features-gallery .item span i{
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    display: inline-block;
+    margin: 20px 0;
+    color: rgb(250, 87, 87); 
+    font-size: 40px; 
+    background-color: #fff;
+    text-align: center;
+    font-weight: 600;
+    
+    
+}
+.features .features-content .features-gallery .item h3{
+    font-family: 'Poppins', sans-serif;
+    color: #524f50;
+}
+.features .features-content .features-gallery .item p{
+    color: #645b5f;
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
+    padding: 10px 15px;
+}
+.features .features-content .features-gallery .item:hover{
+    background-color: #292640;
+    transition: all 0.5s;
+}
+.features .features-content .features-gallery .item:hover h3{
+    color: #fff;
+}
+.features .features-content .features-gallery .item:hover p{
+    color: #fff;
+}
+
+/*=============== Start footer Section ===============*/
+.footer{
+    width: 100%;
+    height: 60vh;
+    background-color: #292640;
+}
+.footer .content{
+    text-align: center;
+    padding-top: 90px;
+}
+.footer .content h1{
+    color: #fff;
+    padding-bottom: 20px;
+}
+.footer .content .footer-btn button{
+    padding: 10px 10px;
+    margin-top: 15px;
+    border: none;
+    background-color: #FF6162;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 500;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 20px;
+    transition: all 0.5s;
+}
+.footer .content .footer-btn button:hover{
+    background-color: #d63f3f;
+}
+.footer .content img{
+    width: 150px;
+}
